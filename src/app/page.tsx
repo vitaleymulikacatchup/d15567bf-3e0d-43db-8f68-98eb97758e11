@@ -11,7 +11,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Bot, BarChart3, Users, Plug, DollarSign, Rocket, Sparkles, Crown, MessageSquare, Shield, Mail, Twitter, Linkedin, Github } from "lucide-react";
+import { Bot, BarChart3, Users, Plug, DollarSign, Rocket, Sparkles, Crown, MessageSquare, Shield, Mail, Twitter, Linkedin, Github, Zap } from "lucide-react";
 
 export default function Page() {
   return (
@@ -71,7 +71,7 @@ export default function Page() {
           title="Powerful Features"
           description="Everything you need to streamline your business operations and accelerate growth"
           tag="Features"
-          tagIcon="Zap"
+          tagIcon={Zap}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
